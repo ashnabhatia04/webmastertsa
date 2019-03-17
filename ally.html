@@ -4,7 +4,14 @@
     <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css">
 </head>
 <body>
-  <ul>
+
+    <ul>
+    <a href="https://www.facebook.com/alessiacara" class="icon icon-facebook follow-facebook" target="_blank">facebook</a>
+    </ul>
+  
+  
+  
+    <ul>
   <li><a class="active" href="#home">Home</a></li>
   <li><a href="merch.html">Shop</a></li>
   <li><a href="#contact">Contact</a></li>
@@ -12,21 +19,91 @@
 </ul>
 
 <div style="position: relative; left: 0; top: 0;">
-  <img src="../images/pink.jpg" alt="Ally pink bg" height=600 width=1550 class="pink">
+  <img src="../images/pink.jpg" alt="Ally pink bg" height=600 width=1450 class="pink">
   <img src="../images/LOGO.gif" alt="logo" height="500" width="1700" class="LOGO">
   
 </div>
-<img src="../images/fence.jpg" height="600" width="400" >
+<img src="../images/fence.jpg" height="670" width="430" >
+<img src="../images/bridge.jpg" height="670" width="975" >
 
-
-<img src="../images/style.jpg"  height=600 width=400 >
+<div class="white-box">
+    <img src="../images/stripes.jpg"  height=600 width=400 >
 <p>Allison Waters, famously known as ALLY, is a pop/country singer residing in the DC area. Growing up in Tennesse, 
-  Ally saw her parents and relatives always singing at open mic nights and at rodeos, "I never remember a time where we weren't singing a Dolly Parton medley or 
-  dancing around our kitchen table at Saturday breakfasts. It's all I've ever known", the 18 year old rising star told E News. She hopes to eventually become someone that 
-  people look up to and follow: "I want people to know me as someone who followed her passion and made it big by sticking to it.
-  If I can do it, they can surely do it too".
+    Ally saw her parents and relatives always singing at open mic nights and at rodeos, "I never remember a time where we weren't singing a Dolly Parton medley or 
+    dancing around our kitchen table at Saturday breakfasts. It's all I've ever known", the 18 year old rising star told E News. She hopes to eventually become someone that 
+    people look up to and follow: "I want people to know me as someone who followed her passion and made it big by sticking to it.
+    If I can do it, they can surely do it too".</p>
+</div>
 
-   </p>
+
+
+
+
+
+
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="../images/pink.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="../images/blue.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="../images/stripes.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
+    
   
 
 </body>
