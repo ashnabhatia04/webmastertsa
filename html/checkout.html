@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css">
+
+    <title>Ally's Checkout Page</title>
+    <script>
+         <!--
+            function display() {
+               alert("Thank you for your order. You will recieve an email confirmation with the delivery date shortly.")
+            }
+         //-->
+      </script>
+    <style>
+        .shipping-box {
+            margin-bottom: 20px;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            background-color: #deb8b6;
+            position: relative;
+            transition: all .25s ease;
+            width: 40%;
+            padding: 10px;
+            float: left;
+            margin-right: 50px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            position: relative;
+            z-index: 2;
+            transition: background 0.45s, border 0.45s;
+            font-size: 13px;
+            font-weight: 500;
+            padding: 9px 15px;
+            border-radius: 0;
+        }
+
+        .btn.btn-custom {
+            color: #fff;
+            background-color: #0069b0;
+            border-color: #0069b0;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="merch.html">Shop</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+    <h1 style="text-align: center; ">Check Out</h1>
+
+    <div class="shipping-box">
+        <h2>Shipping Address:</h2>
+
+        <form>
+
+            <label for="first name">
+                First Name: <input type="text" name="name">
+            </label>
+
+            <label for="last name">
+                Last Name: <input type="text" name="name">
+            </label>
+
+            <br><br>
+
+            <label for="address">
+                Street Address: <input type="text" name="address">
+            </label>
+
+            <label for="city">
+                City: <input type="text" name="city">
+            </label>
+            <br><br>
+            <label for="state">
+                State: <input type="text" name="state">
+            </label>
+            <label for="zip">
+                Zip Code: <input type="text" name="zip">
+            </label>
+            <br><br>
+            <label for="email">
+                Email: <input type="text" name="email">
+            </label>
+
+
+        </form>
+    </div>
+    <div class="shipping-box">
+        <button type="submit" onclick="display()" class="btn btn-custom">PLACE ORDER</button>
+        <p>
+            <Item Detail - 1 Ally Jacket - $50.00</p> <p><strong>Total Amount - USD $55.00</strong>
+        </p>
+        <form>
+            <label for="credit card number">
+                Credit Card Number: <input type="number" name="credit card" maxlength="16">
+            </label><br><br>
+            <label for="cvv">
+                Security Code: <input type="number" name="cvv" maxlength="3">
+            </label><br><br>
+            <label for="date">
+                Expiration Date: <input type="date" name="date" >
+            </label>
+        </form>
+
+    </div>
+    <div style="clear:both;"></div>
+    <div class="shipping-box">
+        <h2>Billing Address:</h2>
+        <form>
+
+            <label for="first name">
+                First Name: <input type="text" name="name">
+            </label>
+
+            <label for="last name">
+                Last Name: <input type="text" name="name">
+            </label>
+
+            <br><br>
+
+            <label for="address">
+                Street Address: <input type="text" name="address">
+            </label>
+
+            <label for="city">
+                City: <input type="text" name="city">
+            </label>
+            <br><br>
+            <label for="state">
+                State: <input type="text" name="state">
+            </label>
+            <label for="zip">
+                Zip Code: <input type="text" name="zip">
+            </label>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
