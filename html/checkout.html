@@ -57,7 +57,7 @@
         <li><a class="active" href="ally.html">Home</a></li>
         <li><a href="merch.html">Shop</a></li>
         <li><a href="contact">Contact</a></li>
-        <li><a href="about">About</a></li>
+        <li><a href="about.html">About</a></li>
     </ul>
     <h1 style="text-align: center; ">Check Out</h1>
 
@@ -85,10 +85,10 @@
             </label>
             <br><br>
             <label for="state">
-                State: <input type="text" name="state">
+                State: <input type="text" name="state" maxlength="2">
             </label>
             <label for="zip">
-                Zip Code: <input type="text" name="zip">
+                Zip Code: <input type="text" name="zip" maxlength="5">
             </label>
             <br><br>
             <label for="email">
@@ -101,14 +101,14 @@
     <div class="shipping-box">
         <button type="submit" onclick="display()" class="btn btn-custom">PLACE ORDER</button>
         <p>
-            <Item Detail - 1 Ally Jacket - $50.00</p> <p><strong>Total Amount - USD $55.00</strong>
+            <Item Detail - 1 Ally Jacket - $50.00></Item></p> <p><strong>Total Amount - USD $55.00</strong>
         </p>
         <form>
             <label for="credit card number">
-                Credit Card Number: <input type="number" name="credit card" maxlength="16">
+                Credit Card Number: <input type="text" name="credit card" maxlength="16">
             </label><br><br>
             <label for="cvv">
-                Security Code: <input type="number" name="cvv" maxlength="3">
+                Security Code: <input type="text" name="cvv" maxlength="3">
             </label><br><br>
             <label for="date">
                 Expiration Date: <input type="date" name="date" >
