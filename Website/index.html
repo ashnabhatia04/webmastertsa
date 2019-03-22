@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<head>
+<title>Wootton TSA Chapter</title>
+
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+</head>
+
+<body>
+
+
+<div class="parallax">
+
+  <img src="images\tsa.jpg">
+</div>
+
+
+<div class="nav">
+  <a href="ksdjfj"> Home </a>
+  <a href="sdjfdkk"> Contact </a>
+  <a href="OurSchool.html"> Wootton </a>
+  <a href="idk" class=active> Our Chapter </a>
+  <a href="ally"> Ally </a>
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images\IMG_0176.jpg" style="width:100%">
+  <div class="text">Our TSA Chatper
+<p>Top: Archie, Ivan, Mr. Uygur(Sponsor), Angela W, Or, Saurya, Sona
+</p> <p>Bottom: Ruonan, Angela C, Anna </p>
+  </div>
+
+</div>
+
+<div class="mySlides fade">
+  <img src="images\IMG_0178.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images\IMG_0174.jpg" style="width:100%">
+<div class="text"> Sona preparing for the CAD Competition </div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images\IMG_0172.jpg" style="width:100%">
+  <div class="text" style=color:black;> Ruonan and Anna discussing
+    <br>the video game </div>
+
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<h2> <i> Learning to lead in a technical world. </i> </h2>
+<div class="content">
+
+<h2>  What We Do </h2>
+<p class="animatebottom">TSA chapters take the study of STEM beyond the classroom and give students the chance to pursue academic challenges among friends with similar goals and interests. Together, chapter members work on competitive events, attend conferences on the state and national levels, and learn and apply leadership skills. Chapters also are committed to a national service project and are among the most service-oriented groups in the community. Members may become officers within their state and then run for national office.
+</p>
+</div>
+
+<div class="content">
+<h2> Our History </h2>
+
+<img class="angela" src="images\IMG_0175.jpg" />
+<p class="animatebottom" style="text-align:left;"> Our chapter was founded
+  last year by Angela Cheng. This is TSA's first year as an official chapter. In the beginning, TSA had a mere 2-3 members. However, after lots of advertising around the school, we had over 12 members that were committed to making our club really make a difference and had a goal to get to the National Competition. This year many of our members are participating in the Video Game Design, Webmaster, Dragster Design, and Software Design. Many of our members have a burning passion for working towards making the technology industry more advanced and accessible for many, therefore, making TSA  a huge part of their lives.
+
+  <p>
+
+</div>
+
+<div class="content">
+<h2> 2019 Competitions </h2>
+
+<ul style=list-style-position:inside; class="animatebottom">
+<li> Webmaster
+<li> Video game
+  <li> Forensics
+    <li> CAD
+      <li> Dragster
+
+</ul>
+
+</div>
+
+</body>
+</html>
