@@ -1,20 +1,27 @@
 body {
+<<<<<<< HEAD
   background-color: #C98986;
   margin: 50px;
   font-family: Mukta;
   font-size: 16px;
+=======
+    background-color: #C98986;
+    margin: 50px;
+    font-family: Mukta;
+    font-size: 14px;
+>>>>>>> 3e36aee73542b584a4e7ff7b2d099aa41d443430
 }
- 
+
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 li {
-  float: left;
+    float: left;
 }
 
 
@@ -33,11 +40,11 @@ img {
 
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 30px 25px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 25px;
+    text-decoration: none;
 }
 
 .footer {
@@ -53,68 +60,73 @@ li a {
 }
 
 li a:hover {
-  background-color: #986C6A;
+    background-color: #986C6A;
 }
 
-.pink
-	{
-		position: relative;
-		top: 0;
-		left: 0;
-	}
-	.LOGO
-	{
-		position: absolute;
+.pink {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.LOGO {
+    position: absolute;
     left: 25px;
     bottom: 180px;
-	}
+}
 
- 
+
 /*Begin styles for merch page */
-        .merch-box {
-            margin-bottom: 20px;
-            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-            background-color: #deb8b6;
-            position: relative;
-            transition: all .25s ease;
-            width: 70%;
-        }
+.merch-box {
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    background-color: #deb8b6;
+    position: relative;
+    transition: all .25s ease;
+    width: 70%;
+}
 
-        .merch-box-header {
-            background-color: #f4e7e6;
-            padding: 5px;
-            font-weight: 600;
-            text-align: center;
-        }
+.merch-box-header {
+    background-color: #f4e7e6;
+    padding: 5px;
+    font-weight: 600;
+    text-align: center;
+}
 
-        .merch-box-footer {
-            background-color: #f4e7e6;
-            padding: 10px;
-            overflow: hidden;
-            margin-top: 10px;
-            margin-bottom: -17px;
-        }
+.merch-box-footer {
+    background-color: #f4e7e6;
+    padding: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: -17px;
+}
+
 /*End styles for merch page */
 
 /*style for the new homepage text*/
 
- .intro-text {
-            background-color: #f4e7e6;
-            padding: 5px;
-            font-weight: 300;
-            text-align: center;
-            font-size: x-large;
-            line-height: 1.45;
+.intro-text {
+    background-color: #f4e7e6;
+    padding: 5px;
+    font-weight: 300;
+    text-align: center;
+    font-size: x-large;
+    line-height: 1.45;
 
-        }
+}
 
-        .logo-text {
-            text-align: center;
-            padding: 5px;
-            line-height: 1.45;
+.logo-text {
+    text-align: center;
+    padding: 5px;
+    line-height: 1.45;
 
-            font-size: -webkit-xxx-large;
+    font-size: -webkit-xxx-large;
 
-        }
+}
+
 /*style for the new homepage text*/
-        
+
+/*style for about page*/
+video {
+    align-content: center;
+}
