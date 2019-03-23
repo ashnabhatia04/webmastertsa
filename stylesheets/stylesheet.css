@@ -2,7 +2,7 @@ body {
   background-color: #C98986;
   margin: 50px;
   font-family: Mukta;
-  font-size: 14px;
+  font-size: 16px;
 }
  
 ul {
@@ -17,12 +17,39 @@ li {
   float: left;
 }
 
+
+
+.white-box {
+  background-color: white;
+  color: black;
+  width:1200px;
+  height:550px;
+  text-align: center;
+}
+
+img {
+  float: left;
+}
+
+
 li a {
   display: block;
   color: white;
   text-align: center;
   padding: 30px 25px;
   text-decoration: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 5%;
+  width: 100%;
+  background-color: lightgrey;
+  color: black;
+  text-align: center;
+  font-size: 12px;
 }
 
 li a:hover {
