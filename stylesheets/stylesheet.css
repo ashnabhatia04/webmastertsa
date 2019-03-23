@@ -17,39 +17,12 @@ li {
     float: left;
 }
 
-
-
-.white-box {
-  background-color: white;
-  color: black;
-  width:1200px;
-  height:550px;
-  text-align: center;
-}
-
-img {
-  float: left;
-}
-
-
 li a {
     display: block;
     color: white;
     text-align: center;
     padding: 30px 25px;
     text-decoration: none;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 5%;
-  width: 100%;
-  background-color: lightgrey;
-  color: black;
-  text-align: center;
-  font-size: 12px;
 }
 
 li a:hover {
@@ -123,54 +96,3 @@ li a:hover {
 video {
     align-content: center;
 }
-
-
-/* Style all font awesome icons */
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  /* Instagram */
-  .fa-instagram {
-    background: pink;
-    color: white;
-  }
-
-  /* Twitter */
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  
-  /* Youtube */
-  .fa-youtube {
-    background: rgb(216, 58, 9);
-    color: white;
-  }
-
-
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 30%;
-  }
